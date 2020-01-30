@@ -59,5 +59,14 @@ namespace Resources {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Enter.
+        /// </summary>
+        internal static string ResValue {
+            get {
+                return ResourceManager.GetString("ResValue", resourceCulture);
+            }
+        }
     }
 }
