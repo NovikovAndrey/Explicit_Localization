@@ -11,7 +11,8 @@ namespace ExplicitLocalization3
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            Label1.Text = GetGlobalResourceObject("GlobalRes", "ResValue").ToString();
+            Label2.Text = GetLocalResourceObject("LocalresValue").ToString();
         }
     }
 }
