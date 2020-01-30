@@ -72,16 +72,6 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="App_GlobalResources\GlobalRes.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>GlobalRes.resx</DependentUpon>
-    </Compile>
-    <Compile Include="App_GlobalResources\GlobalRes.ru.designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>GlobalRes.ru.resx</DependentUpon>
-    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -108,16 +98,10 @@
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_GlobalResources\GlobalRes.resx">
-      <Generator>GlobalResourceProxyGenerator</Generator>
-      <LastGenOutput>GlobalRes.Designer.cs</LastGenOutput>
-    </Content>
+    <Content Include="App_LocalResources\Default.aspx.resx" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_GlobalResources\GlobalRes.ru.resx">
-      <Generator>GlobalResourceProxyGenerator</Generator>
-      <LastGenOutput>GlobalRes.ru.designer.cs</LastGenOutput>
-    </Content>
+    <Content Include="App_LocalResources\Default.aspx.ru.resx" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
