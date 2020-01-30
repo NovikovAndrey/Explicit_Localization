@@ -11,7 +11,10 @@ namespace ExplicitLocalization2
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            UICulture = "ru-RU";
+            ButtonLogin.Text = Resources.GlobalRes.ButtonEnter;
+            LabelLogin.Text = Resources.GlobalRes.LoginText;
+            LabelPassword.Text = Resources.GlobalRes.PassText;
         }
     }
 }
